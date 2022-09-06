@@ -2763,12 +2763,15 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			background: #4eb980;
+			background: #ffffff;
+			background-image: url("../../imagens/logo-almeirimgest.png");
+			background-position: center;
+			background-repeat: no-repeat;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
 			display: inline-block;
-			font-size: 2.25em;
+			font-size: 4.25em;
 			height: 2.35em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
