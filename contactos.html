@@ -13,7 +13,10 @@
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
-			{{ matched pairs of curly brackets (ie, braces) }}
+			{% if user %}
+  Hello {{ user.name }}!
+{% endif %}
+
 			<!-- Header -->
 				<header id="header">
 					<h1><a href="index.html">Alpha</a> by HTML5 UP</h1>
